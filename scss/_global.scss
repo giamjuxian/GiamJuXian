@@ -91,20 +91,20 @@ ul.justified {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (max-width: 40em) {
   #profile { width: 100%; }  
 }
 
-@media screen and (min-width: 401px) and (max-width: 1024px) {
+@media screen and (min-width: 40em) {
   #profile { width: 50%; }   
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (max-width: 40em) {
   #profile-image { display: none; } 
 }
 
-@media screen and (min-width: 401px) and (max-width: 1024px) {
+@media screen and (min-width: 40em) {
   #profile-image { display: block; width: 50%; }  
 }
 
