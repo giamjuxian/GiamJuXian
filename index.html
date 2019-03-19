@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>Resume - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap core CSS -->
+    <title>Resume - Giam Ju Xian</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
@@ -63,28 +60,32 @@
     <div class="container-fluid p-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-            <div class="w-100">
+            <div id="profile">
                 <h1 class="mb-0">Giam
                     <span class="text-primary">Ju Xian</span>
                 </h1>
                 <div class="subheading mb-5">+65 9823 9073
                     <a href="mailto:name@email.com">giamjuxian@u.nus.edu</a>
                 </div>
-                <p class="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                <p class="lead mb-5 justified">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                     voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 <div class="social-icons">
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/ju-xian-giam-9a745716b/">
                         <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/giamjuxian">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="#">
+                    <a href="/pdf/blank.pdf" download>
                         <i class="far fa-file-pdf"></i>
                     </a>
                 </div>
+            </div>
+            <div id="profile-image">
+                <img class="img-fluid" style="transform:rotate(90deg)" src="img/photo.jpg" alt="">
             </div>
         </section>
 
@@ -159,6 +160,89 @@
         <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
             <div class="w-100">
                 <h2 class="mb-5">Projects</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-4">
+                        <div class="card project-card" data-toggle="modal" data-target="#poppegModal">
+                            <img class="img-fluid card-img-top" src="img/poppeg.jpg">
+                            <div class="card-body">
+                                <h3>POPPEG</h3>
+                                <p class="mb-0 justified color-gray">POPPEG is a platform that allows users to
+                                    create physical photo and video albums that can later be shared as a gift</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="poppegModal" tabindex="-1" role="dialog"
+                            aria-labelledby="poppegModelLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="poppegModelLabel">POPPEG</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12 col-lg-4">
+                        <div class="card project-card" data-toggle="modal" data-target="#architechModal">
+                            <img class="card-img-top" src="img/architech.jpg">
+                            <div class="card-body">
+                                <h3>ARchitech</h3>
+                                <p class="mb-0 justified color-gray">ARchitech is an augmented reality maze builder
+                                    game, originally created as a fun game for users to play for orientation</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="architechModal" tabindex="-1" role="dialog"
+                            aria-labelledby="architechModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="architechModalLabel">ARchitech</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-12 col-lg-4">
+                        <div class="card project-card" data-toggle="modal" data-target="#headhunterModal">
+                            <img class="card-img-top" src="img/headhunters.jpg">
+                            <div class="card-body">
+                                <h3>HeadHunters</h3>
+                                <p class="mb-0 justified color-gray">HeadHunters is a fun face filter application,
+                                    built using Unity and ARKit’s Facial Recognition</p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="headhunterModal" tabindex="-1" role="dialog"
+                            aria-labelledby="headhunterModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="headhunterModalLabel">HeadHunters</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -203,27 +287,79 @@
                 <h2 class="mb-5">Skills</h2>
 
                 <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fab fa-node-js"></i>
-                        NodeJS</li>
-                    <li>
-                        <i class="fa-li fab fa-js-square"></i>
-                        JavaScript</li>
+                <table class="table">
+                    <thead>
+                        <th style="width: 50%"></th>
+                        <th style="width: 50%"></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fab fa-node-js"></i>
+                                NodeJS</td>
+                            <td>Proficient</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-js-square"></i>
+                                JavaScript</td>
+                            <td>Proficient</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-java"></i>
+                                Java</td>
+                            <td>Proficient</td>
+                        </tr>
+                        <tr>
+                            <td><i class="devicons devicons-unity_small" style="margin-top:5px"></i>
+                                Unity</td>
+                            <td>Proficient</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-html5"></i>
+                                HTML5</td>
+                            <td>Proficient</td>
+                        </tr>
+                        <tr>
+                            <td> <i class="fab fa-css3-alt"></i>
+                                CSS</td>
+                            <td>Proficient</td>
+                        </tr>
+                        <tr>
+                            <td><i class="devicons devicons-mongodb" style="margin-top:6px"></i>
+                                MongoDB</td>
+                            <td>Intermediate</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fab fa-google" style="margin-top:6px"></i>
+                                Google Cloud Platform</td>
+                            <td>Intermediate</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-                    <li>
-                        <i class="fa-li fab fa-java"></i>
-                        Java</li>
-                    <li>
-                        <i class="fa-li devicons devicons-unity_small" style="margin-top:5px"></i>
-                        Unity</li>
-                    <li>
-                        <i class="fa-li fab fa-html5"></i>
-                        HTML5</li>
-                    <li>
-                        <i class="fa-li fab fa-css3-alt"></i>
-                        CSS</li>
-                </ul>
+                <div class="subheading mb-3">Others</div>
+                <table class="table">
+                    <thead>
+                        <th style="width: 50%"></th>
+                        <th style="width: 50%"></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa fa-camera" style="margin-top:6px"></i>
+                                Adobe Premiere Pro</td>
+                            <td>Basic</td>
+                        </tr>
+                        <tr>
+                            <td><i class="devicons devicons-photoshop" style="margin-top:6px"></i>
+                                Adobe Illustrator</td>
+                            <td>Basic</td>
+                        </tr>
+                        <tr>
+                            <td><i class="devicons devicons-illustrator" style="margin-top:6px"></i>
+                                Adobe Photoshop</td>
+                            <td>Basic</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -232,47 +368,42 @@
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
             <div class="w-100">
                 <h2 class="mb-5">Interests</h2>
-                <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
-                    skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking,
-                    free climbing, and kayaking.</p>
-                <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
-                    shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest
-                    technology advancements in the front-end web development world.</p>
+                <p class="justified">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="mb-0 justified">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
         </section>
 
         <hr class="m-0">
 
         <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-            <div class="w-100">
-                <h2 class="mb-5">Awards &amp; Certifications</h2>
-                <ul class="fa-ul mb-0">
+            <div class="w-50">
+                <h2 class="mb-5">Awards</h2>
+                <ul class="fa-ul mb-0" style="margin-left: 20px">
                     <li>
                         <i class="fa-li fa fa-trophy text-warning"></i>
-                        Google Analytics Certified Developer</li>
+                        Honourable Mention, NUS Orbital 2018 Apollo</li>
                     <li>
                         <i class="fa-li fa fa-trophy text-warning"></i>
-                        Mobile Web Specialist - Google Certification</li>
+                        1st Runner Up, CLEAR Hackathon 2018 by Unity</li>
+                    <li>
+                </ul>
+            </div>
+            <div class="w-50">
+                <h2 class="mb-5">Other Activities</h2>
+                <ul class="fa-ul mb-0" style="margin-left: 20px">
                     <li>
                         <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
+                        Marketing Team Leader, NUS Computing Club</li>
                     <li>
                         <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        2<sup>nd</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - James Buchanan High School - Hackathon 2006</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        3<sup>rd</sup>
-                        Place - James Buchanan High School - Hackathon 2005</li>
+                        Videographer, NUS Computing Club</li>
                 </ul>
             </div>
         </section>
@@ -287,7 +418,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+    <script src="js/resume.js"></script>
 
 </body>
 
