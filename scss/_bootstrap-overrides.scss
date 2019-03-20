@@ -14,3 +14,8 @@ a {
     color: darken($primary, 15%);
   }
 }
+
+.btn-primary {
+  background-color: $purple !important;
+  border-color: $purple !important;
+}

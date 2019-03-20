@@ -122,7 +122,6 @@ ul.justified {
 
 .project-card {
   margin-bottom: 10px;
-  height: 27rem;
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
   transition: transform .5s;
@@ -151,6 +150,10 @@ ul.justified {
 
 .project-card:hover::after, .project-card:focus::after {
   opacity: 1;
+}
+
+.card-text {
+  height: 8rem;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -259,4 +262,9 @@ a {
 
 a:hover, a:focus, a:active {
   color: #432b6d;
+}
+
+.btn-primary {
+  background-color: #6441a4 !important;
+  border-color: #6441a4 !important;
 }

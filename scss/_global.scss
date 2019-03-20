@@ -115,7 +115,6 @@ ul.justified {
 
 .project-card {
   margin-bottom: 10px;
-  height: 27rem;
   transition: transform .5s;
 
   &::after {
@@ -139,4 +138,8 @@ ul.justified {
       opacity: 1;
     }
   }
+}
+
+.card-text {
+  height: 8rem;
 }
