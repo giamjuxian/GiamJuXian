@@ -55,6 +55,10 @@ p.justified {
   text-align: justify;
 }
 
+.justified {
+  text-align: justify;
+}
+
 ul.justified {
   text-align: justify;
 }
